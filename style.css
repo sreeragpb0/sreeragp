@@ -47,7 +47,7 @@
 
 .welcome a
 {
-    background-color: rgb(143, 6, 223);
+    background-color: #FF9999;
     color: black;
     text-decoration: none;
     letter-spacing: 2px;
@@ -56,5 +56,13 @@
     padding: 15px 30px;
     font-size: 20px;
     font-weight: 200;
+    box-shadow: 0 0 5px #FF0000;
+    transition: 0.5s;
 
+}
+
+.welcome a:hover {
+    box-shadow: 0 0 5px #FF0000, 0 0 25px #FF0000,
+    0 0 50px #FF0000,0 0 100px #FF0000;
+    
 }
