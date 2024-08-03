@@ -33,16 +33,29 @@
 {
 
     margin-top: 220px;
+    margin-left:400px;
     letter-spacing: 2px;
-    font-size: 42px;
+    font-size: 60px;
     text-transform: uppercase;
+    
 }
 
+.center{
+	margin: auto;
+	text-align: center;
+}
 .welcome p
 {
     margin-top: 20px;
     letter-spacing:normal;
     font-family: monospace;
+}
+
+.welcome h4
+{
+	margin-left: 712px;
+	margin-top:170px;
+	font-size:30px;
 }
 
 .welcome a
@@ -55,9 +68,11 @@
     margin-top: 30px;
     padding: 15px 30px;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 200px;
     box-shadow: 0 0 5px #FF0000;
     transition: 0.5s;
+    margin-left:704px;
+    
 
 }
 
@@ -65,4 +80,15 @@
     box-shadow: 0 0 5px #FF0000, 0 0 25px #FF0000,
     0 0 50px #FF0000,0 0 100px #FF0000;
     
+}
+
+
+.pirata-one-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-effect-anaglyph {
+    text-shadow: 1em 0px 16px #521515, 0em 20px 14px #260f32;
 }
